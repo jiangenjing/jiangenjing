@@ -7,6 +7,7 @@ I'm a **master's student at Tsinghua Shenzhen International Graduate School (202
 ![Forecasting and Optimization](https://img.shields.io/badge/Focus-Forecasting%20%26%20Optimization-187568?style=flat-square)
 
 - 🔬 **Currently exploring** forecasting-driven inventory and warehouse allocation for cross-border e-commerce, alongside AI agents for explaining optimization decisions.
+- 🤖 **Recently studying AI Agent engineering** — multi-agent orchestration, RAG, tool calling, memory, and evaluation. I document my learning and architecture analysis in [ServiceMind](https://github.com/jiangenjing/servicemind-agent-demo).
 - 🌉 **UC Berkeley · Spring 2024:** a full-scholarship semester exchange student in the Berkeley Global Access program.
 - 🌏 **Dreame Technology · Summer 2026:** overseas GTM intern in the AI Smart Ring business unit, working on market and competitor analysis, value-chain modeling, and pricing scenarios.
 - 🎓 **Zhejiang University of Technology · 2025:** earned my bachelor's degree in Industrial Engineering at Jianxing Honors College, and received the **Zhejiang Outstanding Graduate** honor.
@@ -24,6 +25,7 @@ My research experience spans predictive modeling, operations research, and data-
 
 | Project | What it explores |
 | --- | --- |
+| [🤖 ServiceMind · Agent Engineering Study](https://github.com/jiangenjing/servicemind-agent-demo) | Architecture walkthrough of multi-agent customer support, retrieval, tools, memory, and evaluation; a learning project based on third-party materials, with source redistribution restricted. |
 | [🥬 CUMCM 2023 · Vegetable Replenishment & Pricing](https://github.com/jiangenjing/cumcm-2023-c-vegetable-replenishment) | Sales analysis, demand forecasting, and joint replenishment–pricing optimization; team paper and original experiments. |
 | [📦 Fresh-Produce 3D Bin Packing](https://github.com/jiangenjing/fresh-produce-3d-bin-packing) · [Demo](https://jiangenjing.github.io/fresh-produce-3d-bin-packing/) | Undergraduate thesis on packing algorithms, with source materials and an interactive illustration. |
 | [⚡ Shell × Hangzhou · AI Energy Brain](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain) | An energy-competition prototype exploring charging recommendations, station operations, and membership services. |
