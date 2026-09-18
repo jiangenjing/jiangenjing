@@ -7,6 +7,8 @@ I'm a **master's student at Tsinghua Shenzhen International Graduate School (202
 ![Forecasting and Optimization](https://img.shields.io/badge/Focus-Forecasting%20%26%20Optimization-187568?style=flat-square)
 ![AI Agent Engineering](https://img.shields.io/badge/Building-AI%20Agent%20Applications-202938?style=flat-square)
 
+[📕 Xiaohongshu / 小红书](https://xhslink.cn/o/Aym0oPhPO59) · [💬 WeChat / 微信](#connect)
+
 [Agents](#1-ai-agents--application-engineering) · [Forecasting & optimization](#2-forecasting--decision-optimization) · [Product prototypes](#3-product-prototyping--business-design) · [Research](#4-applied-ml--energy-policy-research)
 
 - 🔬 **Currently exploring** forecasting-driven inventory and warehouse allocation for cross-border e-commerce, alongside AI agents for explaining optimization decisions.
@@ -73,3 +75,10 @@ Each repository explains its architecture or method, available materials, reprod
 **Interests:** AI Agent Applications · Time-Series Foundation Models · Forecasting · Optimization · Product Thinking  
 **Research tools:** Python · Pandas · NumPy · scikit-learn · Gurobi  
 **Agent engineering focus:** FastAPI · RAG · Tool Calling · Redis · ChromaDB · LangGraph
+
+## Connect
+
+- 📕 **[Xiaohongshu / 小红书](https://xhslink.cn/o/Aym0oPhPO59)** — 4,715 followers · September 2026.
+- 💬 **WeChat / 微信:** `asphalt2024` — please mention **GitHub** when adding me / 添加时请备注 GitHub。
+
+Happy to connect about AI Agent applications, forecasting and optimization, product ideas, and research collaboration.
