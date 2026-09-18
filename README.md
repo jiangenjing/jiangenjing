@@ -25,7 +25,7 @@ My research experience spans predictive modeling, operations research, and data-
 
 | Project | What it explores |
 | --- | --- |
-| [🤖 ServiceMind · Agent Engineering Study](https://github.com/jiangenjing/servicemind-agent-demo) | Architecture walkthrough of multi-agent customer support, retrieval, tools, memory, and evaluation; a learning project based on third-party materials, with source redistribution restricted. |
+| [🤖 ServiceMind · Multi-Agent Customer Support](https://github.com/jiangenjing/servicemind-agent-demo) | My Agent engineering project exploring intent routing, retrieval, controlled tool calling, layered memory, and evaluation. [Source & setup](https://github.com/jiangenjing/servicemind-source-private). |
 | [🥬 CUMCM 2023 · Vegetable Replenishment & Pricing](https://github.com/jiangenjing/cumcm-2023-c-vegetable-replenishment) | Sales analysis, demand forecasting, and joint replenishment–pricing optimization; team paper and original experiments. |
 | [📦 Fresh-Produce 3D Bin Packing](https://github.com/jiangenjing/fresh-produce-3d-bin-packing) · [Demo](https://jiangenjing.github.io/fresh-produce-3d-bin-packing/) | Undergraduate thesis on packing algorithms, with source materials and an interactive illustration. |
 | [⚡ Shell × Hangzhou · AI Energy Brain](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain) | An energy-competition prototype exploring charging recommendations, station operations, and membership services. |
