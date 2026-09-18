@@ -9,7 +9,7 @@ I'm a **master's student at Tsinghua Shenzhen International Graduate School (202
 - 🔬 **Currently exploring** forecasting-driven inventory and warehouse allocation for cross-border e-commerce, alongside AI agents for explaining optimization decisions.
 - 🌉 **UC Berkeley · Spring 2024:** a full-scholarship semester exchange student in the Berkeley Global Access program.
 - 🌏 **Dreame Technology · Summer 2026:** overseas GTM intern in the AI Smart Ring business unit, working on market and competitor analysis, value-chain modeling, and pricing scenarios.
-- 🎓 **Zhejiang University of Technology · 2025:** earned my bachelor's degree in Industrial Engineering at Jianxing Honors College, ranked **1st out of 50**, and received the **Zhejiang Outstanding Graduate** honor.
+- 🎓 **Zhejiang University of Technology · 2025:** earned my bachelor's degree in Industrial Engineering at Jianxing Honors College, and received the **Zhejiang Outstanding Graduate** honor.
 - 🏆 **CUMCM 2023 · First Prize, Zhejiang Division:** team leader and modeler for Problem C, connecting fresh-produce sales analysis, forecasting, replenishment, and pricing optimization.
 
 ## Selected research
