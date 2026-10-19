@@ -1,101 +1,88 @@
-[English Version](https://github.com/jiangenjing/jiangenjing/blob/main/README.md)
+[English](README.md)
 
-# 你好，我是蒋恩晶 👋
+# 你好，我是蒋恩晶
 
-🎓 **清华大学深圳国际研究生院 · 2025 级硕士** | 🤖 **AI Agent 应用开发** | 📍 **深圳**
+**清华大学深圳国际研究生院 · 在读硕士｜AI 产品与 Agent 应用｜深圳**
 
-我围绕客服、供应链决策与能源运营，研究和构建 AI 应用，把用户需求转化为可解释的工作流、交互原型和评估方案。
+我关注如何把业务问题做成可体验、可解释、可验证的 AI 应用。近期围绕智能客服、退货决策和学习自动化做项目；研究方向是时序大模型、销量预测与优化决策。
 
-研究方向是**时序大模型与时间序列预测**。本科工业工程、硕士物流工程与管理，加上海外 GTM 实习经历，让我既关注系统怎么实现，也关注**谁会使用、解决什么问题、如何衡量价值**。
+**正在寻找 AI 产品 / Agent 方向实习。** 工业工程、物流工程与管理及海外 GTM 的经历，让我习惯从用户场景出发，连接产品方案、业务约束与交付验证。
 
-[📕 小红书](https://xhslink.cn/o/Aym0oPhPO59) · [💬 微信](#联系我)
+[小红书](https://xhslink.cn/o/Aym0oPhPO59) · [追觅实习作品集](https://jiangenjing.github.io/dreame-gtm-portfolio/) · [联系我](#联系我)
 
-## 🏆 主打项目｜OntoCare · 安克智能客服赛道冠军
+## 🏆 首选项目｜OntoCare · 安克智能客服赛道冠军
 
-**[查看完整项目与源码](https://github.com/jiangenjing/anker-OntoCare)** · **[体验在线 Demo](https://web-production-195cd.up.railway.app/)** · **[图文交互介绍](https://jiangenjing.github.io/anker-OntoCare/docs/%E5%8F%82%E8%B5%9B%E6%8F%90%E4%BA%A4%E8%AF%B4%E6%98%8E-%E6%96%B0%E5%A2%9E%E8%A1%A5%E5%85%85%E7%89%88%E6%9C%AC.html)** · **[在线播放演示视频](https://jiangenjing.github.io/anker-OntoCare/docs/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.html)**
+**Anker 首届黑客松挑战赛 · 智能客服赛道冠军｜2026.10**
 
-**Anker 首届黑客松挑战赛 · 智能客服赛道冠军。**
+[在线体验](https://web-production-195cd.up.railway.app/) · [图文项目介绍](https://jiangenjing.github.io/anker-OntoCare/) · [源码与文档](https://github.com/jiangenjing/anker-OntoCare) · [演示视频](https://jiangenjing.github.io/anker-OntoCare/docs/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.html)
 
-我在安克黑客松中做了一个可交互的智能售后系统：用户端处理含糊描述、产品消歧、图片／视频线索、候选订单与带引用的排障回复；商家端把单条客服邮件和一组售后工单，转成可核查的处理建议。项目关注的不只是“回答”，还包括**证据从哪来、业务规则如何约束动作、失败案例怎样被发现和修正**。
+这是本体队的智能售后与经营归因项目，**我负责整体方案架构、产品设计和路演答辩**，与队友协作完成后端、前端和评测。
 
-| 核心设计 | 解决的问题与实际做法 |
-| --- | --- |
-| **Service + Decision 双本体** | 把产品、订单、知识与证据组织起来，再用显式决策规则约束适用资料和允许动作。当前 Demo 使用 JSON 实体关联与 Python 规则，便于追踪与维护；业务变更仍需回归验证，并非零代码修改。 |
-| **Bad Case 改进闭环** | 用 Persona 多轮对抗、硬性断言和 LLM-as-Judge 找出失败样例；定位知识、规则或回复问题，人工审核修正后复测。点赞／点踩只是排查线索，不会直接自动写回知识库。 |
-| **经营归因 Agent** | 汇总 **63 条脱敏工单快照**，按候选规则给出经营核查建议；可追溯到 Excel 行号、原始工单和规则 ID，让“看见异常”进一步变成“知道该核查什么”。 |
+- **用户端：** 将产品消歧、图片／视频线索、候选订单和带引用的排障回答串成多轮服务流程。
+- **商家端：** 从客服邮件与工单中生成可核查的处理和经营建议，关联原始记录、源表行号及规则 ID。
+- **改进方法：** 用 Service + Decision 双本体约束资料与动作，通过失败案例定位问题，人工修正后回归验证。
 
-**可核对的评测记录：**核心任务单轮硬性断言通过数从 **62/74** 到修复后复测 **73/74**；另一份历史记录的回答时延为 **P50 2.63 秒、P95 9.00 秒**。它们是不同口径的 Demo 测试，不代表“8 轮问题解决率 98%”或生产环境成本。详见[评测原始记录与口径](https://github.com/jiangenjing/anker-OntoCare#评测结果与口径)。
+<details>
+<summary>查看技术架构与评测记录</summary>
 
-[![OntoCare 全链路技术架构](https://raw.githubusercontent.com/jiangenjing/anker-OntoCare/main/OntoCare/docs/assets/ontocare-technical-architecture.png)](https://github.com/jiangenjing/anker-OntoCare/blob/main/OntoCare/docs/assets/ontocare-technical-architecture.png)
+[![OntoCare 技术架构](https://raw.githubusercontent.com/jiangenjing/anker-OntoCare/main/OntoCare/docs/assets/ontocare-technical-architecture.png)](https://github.com/jiangenjing/anker-OntoCare/blob/main/OntoCare/docs/assets/ontocare-technical-architecture.png)
 
-*点击架构图可放大；图中包含路演方案，已实现范围以仓库 README 和源码为准。*
+核心任务单轮硬性断言通过数：历史首轮 **62/74**，修复复测 **73/74**。经营归因使用 **63 条脱敏工单快照**。不同版本与判定方式分别记录，不能直接视为生产解决率。架构图包含路演方案，已实现范围以源码和[评测记录](https://github.com/jiangenjing/anker-OntoCare#评测结果与口径)为准。
 
-## 精选项目
+</details>
 
-[Agent 应用](#1-agent-应用) · [预测与优化](#2-预测与优化) · [产品与商业](#3-产品与商业) · [科研](#4-机器学习与能源研究)
+## 近期项目与工具
 
-### 1. Agent 应用
+| 项目 | 我在探索什么 | 查看 |
+| --- | --- | --- |
+| **ReturnPilot｜2026.10** | KFUPM × 清华团队的沙特本地退货决策原型，围绕消费者、商家与保险机构三端，展示退货路由、成本和退运险方案。 | [交互演示](https://4m35pz21sueq0.doubaoapps.com/app/app_17ft5urc7pr) · [项目与 BP](https://github.com/jiangenjing/returnpilot-ai) |
+| **章节学习工作流 Skill｜2026.10 公开更新** | 将录音纪要整理、去重汇总、复习播客、思维导图和学习任务组织成可复用的 Agent 工作流。 | [技能包与流程](https://github.com/jiangenjing/chapter-learning-workflow) |
+| **ServiceMind** | 多 Agent 客服协作：意图路由、RAG、受控工具调用、分层记忆与请求追踪；提供源码和复现材料。 | [架构介绍](https://github.com/jiangenjing/servicemind-agent-demo) · [源码](https://github.com/jiangenjing/servicemind-source-private) |
+| **壳牌 × 杭州 · AI 能源大脑** | 从选站、充电和会员权益出发，形成补能服务原型、AI 运营方案与 ROI 情景测算。 | [手机端演示](http://hawk-knko.upma.site/) · [项目材料](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain) |
 
-🤖 **[OntoCare｜安克智能售后与经营归因](https://github.com/jiangenjing/anker-OntoCare)** — 本页主打项目；双本体约束、可追溯归因与评测改进闭环。[在线 Demo](https://web-production-195cd.up.railway.app/) · [技术架构](https://github.com/jiangenjing/anker-OntoCare#技术架构)。
-
-🤖 **[ServiceMind｜多 Agent 客服协作](https://github.com/jiangenjing/servicemind-agent-demo)** — 串联意图路由、知识检索、受控工具调用、分层记忆与请求追踪。主要技术包括 Python / FastAPI、Redis、ChromaDB 和 Vue，也提供 Java 实现供对照学习。[架构说明](https://github.com/jiangenjing/servicemind-agent-demo) · [源码与复现](https://github.com/jiangenjing/servicemind-source-private)。
-
-### 2. 预测与优化
-
-🥬 **[生鲜蔬菜补货与定价](https://github.com/jiangenjing/cumcm-2023-c-vegetable-replenishment)** — 将销售分析、ARIMA / GM(1,1) 预测与补货定价优化连接成决策链路。**2023 年数学建模国赛浙江省一等奖**；收录团队论文与原始 Python 实验。
-
-📦 **[生鲜三维装箱优化](https://github.com/jiangenjing/fresh-produce-3d-bin-packing)** — 本科毕业设计，围绕组合块、同层放置与搜索启发式研究受限空间装载。[历史结果交互回放](https://jiangenjing.github.io/fresh-produce-3d-bin-packing/) · [论文与代码](https://github.com/jiangenjing/fresh-produce-3d-bin-packing)。
-
-### 3. 产品与商业
-
-⚡ **[壳牌 × 杭州 · AI 能源大脑](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain)** — 从选站、充电到会员权益的补能服务原型，结合 AI 运营方案、试点设计与投资回报情景测算。[手机网页 Demo](http://hawk-knko.upma.site/) · [路演材料与技术方案](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain)。
-
-### 4. 机器学习与能源研究
-
-- **[DRN-RF 操作员疲劳识别](https://github.com/jiangenjing/drn-rf-fatigue-research)** · PLOS ONE，2025 — 视觉特征与集成分类。共同作者，参与数据整理、实验管理、可视化和论文撰写。[论文](https://doi.org/10.1371/journal.pone.0320780)。
-- **[储能补贴与高质量设施采用](https://github.com/jiangenjing/energy-storage-subsidy-game)** · Energy Policy，2026 — 通过演化博弈分析补贴激励。共同作者，参与研究调查与验证。[论文](https://doi.org/10.1016/j.enpol.2025.114922)。
-- **[资源约束下的光伏互补政策](https://github.com/jiangenjing/photovoltaic-complementary-policy)** · Energy Strategy Reviews，2026 — 区域分类、统计比较与政策解释。共同通讯作者，参与数据整理与论文撰写。[论文](https://doi.org/10.1016/j.esr.2026.102128)。
-
-*项目状态：ServiceMind 提供源码和复现文档，尚未提供公网生产服务；充电 Demo 是使用示例数据的学生竞赛原型，不是壳牌官方产品。科研项目分别说明历史结果、方法演示和待复现实验。*
+ReturnPilot 与补能服务均为竞赛／学生原型；演示中的业务与收益方案需进一步验证。
 
 ## 实习经历｜追觅科技
 
-**AI 智能戒指 BU · 海外 GTM 数据分析实习生 · 2026.06–2026.08**  
-[查看交互作品集与实习复盘](https://jiangenjing.github.io/dreame-gtm-portfolio/) · [源码与说明](https://github.com/jiangenjing/dreame-gtm-portfolio)
+**AI 智能戒指 BU · 海外 GTM 数据分析实习生｜2026.06–2026.08**<br>
+[在线作品集与实习复盘](https://jiangenjing.github.io/dreame-gtm-portfolio/) · [源码与说明](https://github.com/jiangenjing/dreame-gtm-portfolio)
 
-- **市场研究与用户分析：** 整理品牌官网、电商页面、公开评论与行业资料，形成竞品矩阵、用户分层和差异化定位假设，并用 HTML 看板呈现研究过程与结论。
-- **区域 GTM 方案：** 比较不同市场的渠道与进入条件，把调研转化为区域方案、伙伴材料和上市前待验证的问题。
-- **价值链与定价测算：** 搭建可交互测算页，围绕产品成本、渠道分配、税费与利润空间开展情景模拟和敏感性分析，支持定价与渠道讨论。
-- **经营汇报与 AI 提效：** 将分散的业务进展整理为管理汇报，探索 AI 日报和 GTM Agent 原型，并对信息与业务结论进行人工核验。
+- **市场与用户研究：** 整理品牌官网、电商、公开评论和行业资料，形成竞品矩阵、用户分层与定位假设，用 HTML 看板展示研究过程。
+- **区域 GTM：** 比较市场、渠道和进入条件，整理区域方案、伙伴材料及上市前待验证的问题。
+- **商业测算：** 搭建可交互价值链与定价测算页，分析成本、渠道分配、税费与利润空间之间的关系。
+- **汇报与 AI 提效：** 将业务进展整理为管理汇报，探索 AI 日报和 GTM Agent 原型，并人工核验信息与结论。
 
-公开作品集展示工作方法和交付类型；原始调研快照中的假设、价格与型号信息保留复核提示。
+## 研究方向与论文
 
-## 最近在做什么
+关注**时序大模型 → 跨境电商销量预测 → 库存与品仓部署决策**，也探索用 Agent 解释预测与优化结果。
 
-- **Agent 工程实践：** 围绕 OntoCare 和 ServiceMind 深入证据检索、规则约束、工具追踪与评测改进。
-- **预测与决策连接：** 研究跨境电商销量预测与品仓部署，探索时序大模型，以及用于解释优化决策的 Agent。
+| 年份 | 研究与我的参与 | 资料 |
+| --- | --- | --- |
+| **2026** | **资源约束下的光伏互补政策** · Energy Strategy Reviews；共同通讯作者，参与数据整理与论文撰写。 | [论文](https://doi.org/10.1016/j.esr.2026.102128) · [研究页](https://github.com/jiangenjing/photovoltaic-complementary-policy) |
+| **2026** | **储能补贴与高质量设施采用** · Energy Policy；共同作者，参与研究调查与验证。 | [论文](https://doi.org/10.1016/j.enpol.2025.114922) · [研究页](https://github.com/jiangenjing/energy-storage-subsidy-game) |
+| **2025** | **DRN-RF 操作员疲劳识别** · PLOS ONE；共同作者，参与数据整理、实验管理、可视化与论文撰写。 | [论文](https://doi.org/10.1371/journal.pone.0320780) · [研究页](https://github.com/jiangenjing/drn-rf-fatigue-research) |
 
-## 我的产品思维
+<details>
+<summary>更早的项目与教育经历</summary>
 
-**用户需求 → 工作流程 → 技术设计 → 可衡量的结果。**
+- **2025｜生鲜三维装箱优化：** 本科毕业设计，探索组合块、同层放置与搜索启发式。[历史结果交互回放](https://jiangenjing.github.io/fresh-produce-3d-bin-packing/) · [论文与代码](https://github.com/jiangenjing/fresh-produce-3d-bin-packing)。
+- **2025｜浙江工业大学：** 健行学院工业工程本科，浙江省优秀毕业生。
+- **2024 春季｜加州大学伯克利分校：** Berkeley Global Access 全额奖学金学期交流。
+- **2023｜数学建模国赛浙江省一等奖：** 队长兼建模手，围绕生鲜蔬菜销售分析、预测与补货定价优化。[团队论文与 Python 实验](https://github.com/jiangenjing/cumcm-2023-c-vegetable-replenishment)。
 
-- **客服场景：** 回答不仅要通顺，还要解决问题，或明确下一步由谁做什么。
-- **充电场景：** 推荐兼顾用户时间与履约可靠性，增长方案同时考虑权益和交付成本。
-- **供应链场景：** 不只看预测误差，还看预测如何影响库存、履约与经营决策。
+</details>
 
-## 经历与亮点
+## 工具与方法
 
-- 🌉 **加州大学伯克利分校｜2024 年春季** — Berkeley Global Access 全额奖学金学期交流。
-- 🌏 **追觅科技｜2026.06–2026.08** — AI 智能戒指 BU 海外 GTM 数据分析实习生。[在线作品集与实习复盘](https://jiangenjing.github.io/dreame-gtm-portfolio/)。
-- 🎓 **浙江工业大学｜2025 届** — 健行学院工业工程本科，浙江省优秀毕业生。
-- 🏆 **2023 年全国大学生数学建模竞赛** — 队长兼建模手，浙江省一等奖。
-
-**研究工具：** Python · Pandas · NumPy · scikit-learn · Gurobi  
-**Agent 工程学习与实践：** FastAPI · RAG · Tool Calling · Redis · ChromaDB · LangGraph
+**Agent 应用：** Python · FastAPI · RAG · Tool Calling · LangGraph · Redis · ChromaDB<br>
+**数据与决策：** Pandas · NumPy · scikit-learn · Gurobi · 情景分析<br>
+**工作方法：** 明确业务问题 → 做出可体验原型 → 记录证据与失败案例 → 验证并迭代。
 
 ## 联系我
 
-📕 **[小红书](https://xhslink.cn/o/Aym0oPhPO59)** — 4,715 位粉丝，记录于 2026 年 9 月。  
-💬 **微信：** `asphalt2024`，添加时请备注 **GitHub**。
+**[小红书](https://xhslink.cn/o/Aym0oPhPO59)** — **4,920 位粉丝**，截至 2026 年 10 月 20 日。<br>
+**微信：** `asphalt2024`，添加时请备注 **GitHub＋具体来意**。
 
-欢迎交流 Agent 应用、预测与优化、产品想法和科研合作。
+欢迎交流 AI 产品与 Agent 实习、项目合作、预测与优化。
+
+*更新于 2026 年 10 月 20 日。*
