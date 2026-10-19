@@ -31,16 +31,14 @@ Core-task single-run hard-assertion passes: **62/74** in the historical first ru
 
 </details>
 
-## Recent projects & tools
+## October 2026 · Recent projects & tools
 
 | Project | Focus | Explore |
 | --- | --- | --- |
 | **ReturnPilot · Oct 2026** | A KFUPM × Tsinghua team prototype for local returns in Saudi Arabia: consumer, merchant, and insurer views for routing, costs, and return-shipping insurance proposals. | [Interactive demo](https://4m35pz21sueq0.doubaoapps.com/app/app_17ft5urc7pr) · [Project & business plan](https://github.com/jiangenjing/returnpilot-ai) |
 | **Chapter Learning Workflow Skill · publicly updated Oct 2026** | A reusable Agent workflow for lecture notes, deduplication, summaries, review podcasts, mind maps, and learning tasks. | [Skill & workflow](https://github.com/jiangenjing/chapter-learning-workflow) |
-| **ServiceMind** | Multi-Agent customer support with intent routing, RAG, controlled tool calling, layered memory, and request traces; source and reproduction materials available. | [Architecture](https://github.com/jiangenjing/servicemind-agent-demo) · [Source](https://github.com/jiangenjing/servicemind-source-private) |
-| **Shell × Hangzhou · AI Energy Brain** | A charging-service prototype connecting station choice, charging, and membership with an AI operations proposal and ROI scenarios. | [Mobile demo](http://hawk-knko.upma.site/) · [Project materials](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain) |
 
-ReturnPilot and the charging service are competition/student prototypes; business and return scenarios require further validation.
+ReturnPilot is a competition prototype presenting product workflows and business proposals.
 
 ## Internship · Dreame Technology
 
@@ -51,6 +49,15 @@ ReturnPilot and the charging service are competition/student prototypes; busines
 - **Regional GTM:** compared markets, channels, and entry requirements, preparing regional proposals, partner materials, and questions to validate before launch.
 - **Commercial modeling:** built interactive value-chain and pricing scenarios to examine costs, channel allocation, taxes, fees, and margin sensitivity.
 - **Reporting and AI workflows:** structured business updates for management reports and explored AI-assisted daily summaries and a GTM Agent prototype with human verification.
+
+## More product & engineering projects
+
+| Project | Focus | Explore |
+| --- | --- | --- |
+| **ServiceMind** | Multi-Agent customer support with intent routing, RAG, controlled tool calling, layered memory, and request traces; source and reproduction materials available. | [Architecture](https://github.com/jiangenjing/servicemind-agent-demo) · [Source](https://github.com/jiangenjing/servicemind-source-private) |
+| **Shell × Hangzhou · AI Energy Brain** | A charging-service prototype connecting station choice, charging, and membership with an AI operations proposal and ROI scenarios. | [Mobile demo](http://hawk-knko.upma.site/) · [Project materials](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain) |
+
+The charging service is a student competition prototype, with scenario-based ROI estimates.
 
 ## Research & publications
 

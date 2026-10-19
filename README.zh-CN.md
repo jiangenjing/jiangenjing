@@ -31,16 +31,14 @@
 
 </details>
 
-## 近期项目与工具
+## 2026 年 10 月｜近期项目与工具
 
 | 项目 | 我在探索什么 | 查看 |
 | --- | --- | --- |
 | **ReturnPilot｜2026.10** | KFUPM × 清华团队的沙特本地退货决策原型，围绕消费者、商家与保险机构三端，展示退货路由、成本和退运险方案。 | [交互演示](https://4m35pz21sueq0.doubaoapps.com/app/app_17ft5urc7pr) · [项目与 BP](https://github.com/jiangenjing/returnpilot-ai) |
 | **章节学习工作流 Skill｜2026.10 公开更新** | 将录音纪要整理、去重汇总、复习播客、思维导图和学习任务组织成可复用的 Agent 工作流。 | [技能包与流程](https://github.com/jiangenjing/chapter-learning-workflow) |
-| **ServiceMind** | 多 Agent 客服协作：意图路由、RAG、受控工具调用、分层记忆与请求追踪；提供源码和复现材料。 | [架构介绍](https://github.com/jiangenjing/servicemind-agent-demo) · [源码](https://github.com/jiangenjing/servicemind-source-private) |
-| **壳牌 × 杭州 · AI 能源大脑** | 从选站、充电和会员权益出发，形成补能服务原型、AI 运营方案与 ROI 情景测算。 | [手机端演示](http://hawk-knko.upma.site/) · [项目材料](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain) |
 
-ReturnPilot 与补能服务均为竞赛／学生原型；演示中的业务与收益方案需进一步验证。
+ReturnPilot 为竞赛原型，展示产品流程与商业方案。
 
 ## 实习经历｜追觅科技
 
@@ -51,6 +49,15 @@ ReturnPilot 与补能服务均为竞赛／学生原型；演示中的业务与�
 - **区域 GTM：** 比较市场、渠道和进入条件，整理区域方案、伙伴材料及上市前待验证的问题。
 - **商业测算：** 搭建可交互价值链与定价测算页，分析成本、渠道分配、税费与利润空间之间的关系。
 - **汇报与 AI 提效：** 将业务进展整理为管理汇报，探索 AI 日报和 GTM Agent 原型，并人工核验信息与结论。
+
+## 更多产品与工程项目
+
+| 项目 | 主要内容 | 查看 |
+| --- | --- | --- |
+| **ServiceMind** | 多 Agent 客服协作：意图路由、RAG、受控工具调用、分层记忆与请求追踪；提供源码和复现材料。 | [架构介绍](https://github.com/jiangenjing/servicemind-agent-demo) · [源码](https://github.com/jiangenjing/servicemind-source-private) |
+| **壳牌 × 杭州 · AI 能源大脑** | 从选站、充电和会员权益出发，形成补能服务原型、AI 运营方案与 ROI 情景测算。 | [手机端演示](http://hawk-knko.upma.site/) · [项目材料](https://github.com/jiangenjing/shell-hangzhou-ai-energy-brain) |
+
+壳牌补能服务为学生竞赛原型，ROI 为情景测算。
 
 ## 研究方向与论文
 
