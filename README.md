@@ -10,11 +10,31 @@ My research focuses on **time-series foundation models and forecasting**. With a
 
 [📕 Xiaohongshu / 小红书](https://xhslink.cn/o/Aym0oPhPO59) · [💬 WeChat / 微信](#connect)
 
+## ⭐ Featured project · OntoCare
+
+**[Source and full documentation](https://github.com/jiangenjing/anker-OntoCare)** · **[Live demo](https://web-production-195cd.up.railway.app/)** · **[Visual project tour](https://jiangenjing.github.io/anker-OntoCare/docs/%E5%8F%82%E8%B5%9B%E6%8F%90%E4%BA%A4%E8%AF%B4%E6%98%8E-%E6%96%B0%E5%A2%9E%E8%A1%A5%E5%85%85%E7%89%88%E6%9C%AC.html)** · **[Watch the demo videos](https://jiangenjing.github.io/anker-OntoCare/docs/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.html)**
+
+I built OntoCare for the Anker hackathon to connect customer support with evidence-based business analysis. The customer view handles ambiguous product names, image/video clues, candidate orders, and cited troubleshooting answers. The merchant view turns individual emails and groups of support tickets into reviewable actions. The central questions are **where the evidence came from, which business rules constrain an action, and how failures are found and corrected**.
+
+| Core design | What it does |
+| --- | --- |
+| **Service + Decision Ontology** | Links products, orders, knowledge, and evidence, then applies explicit decision rules to scope retrieval and permitted actions. The current demo uses JSON relationships and Python rules; policy changes still need code review and regression testing. |
+| **Bad-case improvement loop** | Uses multi-turn persona challenges, deterministic assertions, and LLM-as-Judge to identify failures. A human reviews knowledge or rule changes before regression testing; user feedback is a signal, not an automatic truth label. |
+| **Business attribution agent** | Analyzes **63 de-identified ticket snapshots** and produces candidate investigation actions linked to source spreadsheet rows, ticket text, and rule IDs. |
+
+**Recorded evaluation:** single-run core-task hard-assertion passes went from **62/74** to **73/74** after fixes. A separate historical latency run recorded **P50 2.63 s / P95 9.00 s**. These demo measurements do not establish an eight-turn resolution rate or production cost. [Read the measurement scope and raw results](https://github.com/jiangenjing/anker-OntoCare#评测结果与口径).
+
+[![OntoCare architecture](https://raw.githubusercontent.com/jiangenjing/anker-OntoCare/main/OntoCare/docs/assets/ontocare-technical-architecture.png)](https://github.com/jiangenjing/anker-OntoCare/blob/main/OntoCare/docs/assets/ontocare-technical-architecture.png)
+
+*Click to enlarge. The diagram includes the pitch design; the repository README and source code define the implemented scope.*
+
 ## Featured projects
 
 [Agent applications](#1-agent-applications) · [Forecasting & optimization](#2-forecasting--optimization) · [Product & business](#3-product--business) · [Research](#4-applied-ml--energy-research)
 
 ### 1. Agent applications
+
+🤖 **[OntoCare](https://github.com/jiangenjing/anker-OntoCare)** — Featured above: ontology-scoped support, traceable business attribution, and an evaluation-driven improvement loop. [Live demo](https://web-production-195cd.up.railway.app/) · [Architecture](https://github.com/jiangenjing/anker-OntoCare#技术架构).
 
 🤖 **[ServiceMind](https://github.com/jiangenjing/servicemind-agent-demo)** — Multi-Agent customer support with intent routing, RAG, controlled tool calling, layered memory, and request traces. Python / FastAPI, Redis, ChromaDB, and Vue; a Java implementation is also available. [Architecture](https://github.com/jiangenjing/servicemind-agent-demo) · [Source & setup](https://github.com/jiangenjing/servicemind-source-private).
 
@@ -38,7 +58,7 @@ My research focuses on **time-series foundation models and forecasting**. With a
 
 ## What I'm working on
 
-- **Agent engineering:** developing my ServiceMind practice around multi-agent workflows, retrieval, tool evidence, memory, and evaluation.
+- **Agent engineering:** developing OntoCare and ServiceMind around evidence retrieval, rule-constrained actions, tool traces, and evaluation.
 - **Forecasting → decisions:** researching time-series foundation models for cross-border e-commerce demand and warehouse allocation, including agents that explain optimization decisions.
 
 ## How I think about products

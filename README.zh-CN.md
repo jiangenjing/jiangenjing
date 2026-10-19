@@ -10,11 +10,31 @@
 
 [📕 小红书](https://xhslink.cn/o/Aym0oPhPO59) · [💬 微信](#联系我)
 
+## ⭐ 主打项目｜OntoCare · 本体驱动的智能售后与经营归因
+
+**[查看完整项目与源码](https://github.com/jiangenjing/anker-OntoCare)** · **[体验在线 Demo](https://web-production-195cd.up.railway.app/)** · **[图文交互介绍](https://jiangenjing.github.io/anker-OntoCare/docs/%E5%8F%82%E8%B5%9B%E6%8F%90%E4%BA%A4%E8%AF%B4%E6%98%8E-%E6%96%B0%E5%A2%9E%E8%A1%A5%E5%85%85%E7%89%88%E6%9C%AC.html)** · **[在线播放演示视频](https://jiangenjing.github.io/anker-OntoCare/docs/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.html)**
+
+我在安克黑客松中做了一个可交互的智能售后系统：用户端处理含糊描述、产品消歧、图片／视频线索、候选订单与带引用的排障回复；商家端把单条客服邮件和一组售后工单，转成可核查的处理建议。项目关注的不只是“回答”，还包括**证据从哪来、业务规则如何约束动作、失败案例怎样被发现和修正**。
+
+| 核心设计 | 解决的问题与实际做法 |
+| --- | --- |
+| **Service + Decision 双本体** | 把产品、订单、知识与证据组织起来，再用显式决策规则约束适用资料和允许动作。当前 Demo 使用 JSON 实体关联与 Python 规则，便于追踪与维护；业务变更仍需回归验证，并非零代码修改。 |
+| **Bad Case 改进闭环** | 用 Persona 多轮对抗、硬性断言和 LLM-as-Judge 找出失败样例；定位知识、规则或回复问题，人工审核修正后复测。点赞／点踩只是排查线索，不会直接自动写回知识库。 |
+| **经营归因 Agent** | 汇总 **63 条脱敏工单快照**，按候选规则给出经营核查建议；可追溯到 Excel 行号、原始工单和规则 ID，让“看见异常”进一步变成“知道该核查什么”。 |
+
+**可核对的评测记录：**核心任务单轮硬性断言通过数从 **62/74** 到修复后复测 **73/74**；另一份历史记录的回答时延为 **P50 2.63 秒、P95 9.00 秒**。它们是不同口径的 Demo 测试，不代表“8 轮问题解决率 98%”或生产环境成本。详见[评测原始记录与口径](https://github.com/jiangenjing/anker-OntoCare#评测结果与口径)。
+
+[![OntoCare 全链路技术架构](https://raw.githubusercontent.com/jiangenjing/anker-OntoCare/main/OntoCare/docs/assets/ontocare-technical-architecture.png)](https://github.com/jiangenjing/anker-OntoCare/blob/main/OntoCare/docs/assets/ontocare-technical-architecture.png)
+
+*点击架构图可放大；图中包含路演方案，已实现范围以仓库 README 和源码为准。*
+
 ## 精选项目
 
 [Agent 应用](#1-agent-应用) · [预测与优化](#2-预测与优化) · [产品与商业](#3-产品与商业) · [科研](#4-机器学习与能源研究)
 
 ### 1. Agent 应用
+
+🤖 **[OntoCare｜安克智能售后与经营归因](https://github.com/jiangenjing/anker-OntoCare)** — 本页主打项目；双本体约束、可追溯归因与评测改进闭环。[在线 Demo](https://web-production-195cd.up.railway.app/) · [技术架构](https://github.com/jiangenjing/anker-OntoCare#技术架构)。
 
 🤖 **[ServiceMind｜多 Agent 客服协作](https://github.com/jiangenjing/servicemind-agent-demo)** — 串联意图路由、知识检索、受控工具调用、分层记忆与请求追踪。主要技术包括 Python / FastAPI、Redis、ChromaDB 和 Vue，也提供 Java 实现供对照学习。[架构说明](https://github.com/jiangenjing/servicemind-agent-demo) · [源码与复现](https://github.com/jiangenjing/servicemind-source-private)。
 
@@ -38,7 +58,7 @@
 
 ## 最近在做什么
 
-- **Agent 工程实践：** 围绕 ServiceMind 深入多 Agent 工作流、检索、工具证据、记忆与评测。
+- **Agent 工程实践：** 围绕 OntoCare 和 ServiceMind 深入证据检索、规则约束、工具追踪与评测改进。
 - **预测与决策连接：** 研究跨境电商销量预测与品仓部署，探索时序大模型，以及用于解释优化决策的 Agent。
 
 ## 我的产品思维
