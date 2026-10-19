@@ -10,9 +10,11 @@ My research focuses on **time-series foundation models and forecasting**. With a
 
 [📕 Xiaohongshu / 小红书](https://xhslink.cn/o/Aym0oPhPO59) · [💬 WeChat / 微信](#connect)
 
-## ⭐ Featured project · OntoCare
+## 🏆 Featured project · OntoCare — Anker Customer Service Track Champion
 
 **[Source and full documentation](https://github.com/jiangenjing/anker-OntoCare)** · **[Live demo](https://web-production-195cd.up.railway.app/)** · **[Visual project tour](https://jiangenjing.github.io/anker-OntoCare/docs/%E5%8F%82%E8%B5%9B%E6%8F%90%E4%BA%A4%E8%AF%B4%E6%98%8E-%E6%96%B0%E5%A2%9E%E8%A1%A5%E5%85%85%E7%89%88%E6%9C%AC.html)** · **[Watch the demo videos](https://jiangenjing.github.io/anker-OntoCare/docs/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.html)**
+
+**Champion, Customer Service Track · Anker inaugural hackathon.**
 
 I built OntoCare for the Anker hackathon to connect customer support with evidence-based business analysis. The customer view handles ambiguous product names, image/video clues, candidate orders, and cited troubleshooting answers. The merchant view turns individual emails and groups of support tickets into reviewable actions. The central questions are **where the evidence came from, which business rules constrain an action, and how failures are found and corrected**.
 
@@ -56,6 +58,18 @@ I built OntoCare for the Anker hackathon to connect customer support with eviden
 
 *Project status: ServiceMind provides source and reproduction documentation, not a hosted production service. The charging demo is a student prototype with example data, not an official Shell product. Research pages distinguish historical results, method illustrations, and experiments still to reproduce.*
 
+## Internship · Dreame Technology
+
+**AI Smart Ring BU · Overseas GTM Data Analysis Intern · Jun–Aug 2026**  
+[View the interactive portfolio](https://jiangenjing.github.io/dreame-gtm-portfolio/) · [Source & documentation](https://github.com/jiangenjing/dreame-gtm-portfolio)
+
+- **Market and user research:** structured brand websites, retail listings, public reviews and industry materials into competitor matrices, user segments, and positioning hypotheses; presented findings in an interactive HTML research board.
+- **Regional GTM planning:** compared market, channel and entry requirements, translating research into regional proposals, partner materials and questions to validate before launch.
+- **Commercial modeling:** built interactive value-chain and pricing scenarios to examine product costs, channel allocation, taxes, fees and margin sensitivity.
+- **Reporting and AI workflows:** organized business updates into management reports and explored AI-assisted daily summaries and a GTM Agent prototype, with human verification of facts and decisions.
+
+The public portfolio presents work methods and deliverable types; the original research snapshot includes assumptions and information that needs rechecking.
+
 ## What I'm working on
 
 - **Agent engineering:** developing OntoCare and ServiceMind around evidence retrieval, rule-constrained actions, tool traces, and evaluation.
@@ -72,7 +86,7 @@ I built OntoCare for the Anker hackathon to connect customer support with eviden
 ## Experience & highlights
 
 - 🌉 **UC Berkeley · Spring 2024** — Full-scholarship semester exchange, Berkeley Global Access.
-- 🌏 **Dreame Technology · Summer 2026** — Overseas GTM intern, AI Smart Ring BU; market and competitor analysis, value-chain modeling, and pricing scenarios.
+- 🌏 **Dreame Technology · Jun–Aug 2026** — Overseas GTM Data Analysis Intern, AI Smart Ring BU. [Interactive portfolio & internship review](https://jiangenjing.github.io/dreame-gtm-portfolio/).
 - 🎓 **Zhejiang University of Technology · 2025** — Industrial Engineering, Jianxing Honors College; Zhejiang Outstanding Graduate.
 - 🏆 **CUMCM 2023** — Team leader and modeler; First Prize, Zhejiang Division.
 
