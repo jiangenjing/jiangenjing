@@ -8,11 +8,15 @@
 
 **正在寻找 AI 产品 / Agent 方向实习。** 工业工程、物流工程与管理及海外 GTM 的经历，让我习惯从用户场景出发，连接产品方案、业务约束与交付验证。
 
-[小红书](https://xhslink.cn/o/Aym0oPhPO59) · [追觅实习作品集](https://jiangenjing.github.io/dreame-gtm-portfolio/) · [联系我](#联系我)
+[小红书](https://xhslink.cn/o/Aym0oPhPO59) · [个人介绍网站](https://jiangenjing.github.io/enjing-interview-portfolio/) · [追觅实习作品集](https://jiangenjing.github.io/dreame-gtm-portfolio/) · [联系我](#联系我)
 
 ## 🏆 首选项目｜OntoCare · 安克智能客服赛道冠军
 
 **Anker 首届黑客松挑战赛 · 智能客服赛道冠军｜2026.10**
+
+**获奖证书｜智能服务赛道冠军**（按证书原文展示）
+
+<a href="assets/anker-intelligent-service-champion.jpg"><img src="assets/anker-intelligent-service-champion.jpg" alt="蒋恩晶 · Anker 首届黑客松挑战赛智能服务赛道冠军证书" width="680"></a>
 
 [在线体验](https://web-production-195cd.up.railway.app/) · [图文项目介绍](https://jiangenjing.github.io/anker-OntoCare/) · [源码与文档](https://github.com/jiangenjing/anker-OntoCare) · [演示视频](https://jiangenjing.github.io/anker-OntoCare/docs/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.html)
 

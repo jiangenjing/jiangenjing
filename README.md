@@ -8,11 +8,15 @@ I turn business problems into AI workflows that people can try, inspect, and eva
 
 **Open to AI product / Agent internships.** My background in Industrial Engineering, Logistics Engineering and Management, and overseas GTM connects user needs with product design, business constraints, and delivery.
 
-[Xiaohongshu](https://xhslink.cn/o/Aym0oPhPO59) · [Dreame internship portfolio](https://jiangenjing.github.io/dreame-gtm-portfolio/) · [Contact](#contact)
+[Xiaohongshu](https://xhslink.cn/o/Aym0oPhPO59) · [Personal introduction](https://jiangenjing.github.io/enjing-interview-portfolio/) · [Dreame internship portfolio](https://jiangenjing.github.io/dreame-gtm-portfolio/) · [Contact](#contact)
 
 ## 🏆 Featured project · OntoCare — Anker Customer Service Track Champion
 
 **Champion, Customer Service Track · Anker inaugural hackathon · October 2026**
+
+**Award certificate · 智能服务赛道冠军** — awarded to Enjing Jiang at the inaugural Anker Hackathon.
+
+<a href="assets/anker-intelligent-service-champion.jpg"><img src="assets/anker-intelligent-service-champion.jpg" alt="Enjing Jiang — Anker inaugural hackathon, Intelligent Service Track Champion certificate" width="680"></a>
 
 [Live demo](https://web-production-195cd.up.railway.app/) · [Visual project tour](https://jiangenjing.github.io/anker-OntoCare/) · [Source & documentation](https://github.com/jiangenjing/anker-OntoCare) · [Demo videos](https://jiangenjing.github.io/anker-OntoCare/docs/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.html)
 
